@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+    border-radius: 20px;
+    padding: 17px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_four{
+    display: flex;
+}
+
+img{
+    margin-right: 20px;
+    width: 25px;
+}
+
+.card_two{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--Dark-Navy, #303b59);
+    margin-right: 68px;
+    font-size: 18px;
+}
+
+.card_three{
+    font-size: 18px;
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.card_three span{
+    color: var(--Dark-Navy, #a2a2a2);
+}

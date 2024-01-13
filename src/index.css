@@ -1,0 +1,123 @@
+body {
+  background: var(--Very-Light-blue, #ecf2ff);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  background-color: white;
+  margin-top: 100px;
+  width: 736px;
+  border-radius: 30px;
+}
+
+.cards {
+  background: var(
+    --Gradient-1,
+    linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+  );
+  color: white;
+  width: 368px;
+  border-radius: 30px;
+  height: 512px;
+}
+
+.cards_h3 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--Light-Blue, #cac9ff);
+  text-align: center;
+  margin-top: 38px;
+}
+
+.cards_radius {
+  background: var(
+    --Gradient-2,
+    linear-gradient(
+      180deg,
+      #4d21c9 0%,
+      rgba(37, 33, 201, 0) 100%,
+      rgba(37, 33, 201, 0) 100%
+    )
+  );
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.cards_item {
+  font-size: 72px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+.cards_item_2 {
+  color: var(--Light-Blue, #cac9ff);
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.cards_list {
+  color: var(--White, #fff);
+  text-align: center;
+  /* Heading L */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 28px;
+}
+
+.cards_p {
+  color: var(--Light-Blue, #cac9ff);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px 55px;
+}
+
+.main_two {
+  padding: 35px;
+}
+
+.main_two_gap {
+  color: var(--Dark-Navy, #303b59);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.main_three{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_four{
+    background: var(--Dark-Navy, #303B59);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 35px;
+}
